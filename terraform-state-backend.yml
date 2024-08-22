@@ -114,11 +114,8 @@ Resources:
             - SkipAdminPrincipal
             - !Sub "arn:aws:iam::${AWS::AccountId}:root"
             - !Ref AdminPrincipal
-          NotAction:
-          - kms:Encrypt
-          - kms:Decrypt
-          - kms:ReEncrypt*
-          - kms:GenerateDataKey*
+          Action:
+          - kms:*
           Resource: '*'
         - Sid: AllowStateBackend
           Effect: Allow
