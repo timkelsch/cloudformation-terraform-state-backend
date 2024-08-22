@@ -102,16 +102,20 @@ file.
 
 [LICENSE]: ./LICENSE
 
-About thoughtbot
-----------------
+<!-- START /templates/footer.md -->
+## About thoughtbot
 
-![thoughtbot](https://thoughtbot.com/brand_assets/93:44.svg)
+![thoughtbot](https://thoughtbot.com/thoughtbot-logo-for-readmes.svg)
 
-This template is maintained and funded by thoughtbot, inc. The names and logos
-for thoughtbot are trademarks of thoughtbot, inc.
+This repo is maintained and funded by thoughtbot, inc.
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
-We love open source software! See [our other projects][community] or [hire
-us][hire] to design, develop, and grow your product.
+We love open source software!
+See [our other projects][community].
+We are [available for hire][hire].
 
 [community]: https://thoughtbot.com/community?utm_source=github
 [hire]: https://thoughtbot.com/hire-us?utm_source=github
+
+
+<!-- END /templates/footer.md -->
