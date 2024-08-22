@@ -137,7 +137,10 @@ Resources:
           Principal:
             Service: cloudtrail.amazonaws.com
           Action:
-          - kms:GenerateDataKey
+          - kms:Encrypt
+          - kms:Decrypt
+          - kms:ReEncrypt*
+          - kms:GenerateDataKey*
           Resource: "*"
           Condition:
             StringLike:
